@@ -59,12 +59,12 @@ export default function Header({ currentTab, onTabChange, onRequestEvaluation }:
             <span className="text-navy-light font-bold">|</span>
             <div className="flex items-center gap-2">
               <Phone className="h-3 w-3 text-gold" />
-              <a href="tel:+256704378426" className="hover:text-gold transition-colors font-semibold text-white">
-                +256 704 378 426
+              <a href="tel:+256772968262" className="hover:text-gold transition-colors font-semibold text-white">
+                +256 772 968 262
               </a>
               <span className="text-navy-light font-bold">/</span>
-              <a href="tel:+256772378426" className="hover:text-gold transition-colors font-semibold text-white">
-                +256 772 378 426
+              <a href="tel:+256704378426" className="hover:text-gold transition-colors font-semibold text-white">
+                +256 704 378 426
               </a>
             </div>
           </div>
@@ -93,9 +93,12 @@ export default function Header({ currentTab, onTabChange, onRequestEvaluation }:
             onClick={() => handleNavClick('home')} 
             className="flex items-center gap-3 cursor-pointer group"
           >
-            <div className="bg-gold w-10 h-10 shrink-0 flex items-center justify-center font-serif text-white font-bold text-xl rounded-none transition-transform group-hover:scale-105">
-              K
-            </div>
+            <img 
+              src="/dka.png" 
+              alt="Denis Kakeeto Advocates Logo" 
+              referrerPolicy="no-referrer"
+              className="w-10 h-10 object-contain shrink-0 transition-transform group-hover:scale-105"
+            />
             <div className="flex flex-col leading-tight">
               <span className="block font-serif text-lg sm:text-xl font-bold text-navy tracking-tight">
                 Denis Kakeeto
@@ -175,11 +178,11 @@ export default function Header({ currentTab, onTabChange, onRequestEvaluation }:
           {/* Core Desktop CTAs */}
           <div className="hidden lg:flex items-center gap-3">
             <a 
-              href="tel:+256704378426" 
+              href="tel:+256772968262" 
               className="px-4 py-2.5 border-2 border-navy text-navy font-bold text-[11px] uppercase tracking-wider rounded-none hover:bg-navy hover:text-white transition-all flex items-center gap-1.5"
             >
               <Phone className="h-3.5 w-3.5 text-gold" />
-              +256 704 378 426
+              +256 772 968 262
             </a>
             <button 
               onClick={onRequestEvaluation}
@@ -192,7 +195,7 @@ export default function Header({ currentTab, onTabChange, onRequestEvaluation }:
           {/* Mobile Menu Icon */}
           <div className="flex items-center gap-3 lg:hidden">
             <a 
-              href="tel:+256704378426" 
+              href="tel:+256772968262" 
               className="bg-navy text-gold p-2.5 rounded-none border border-navy hover:bg-gold hover:text-navy transition-colors flex items-center justify-center min-w-[44px] min-h-[44px]"
               title="Call Advocate Now"
             >
@@ -225,9 +228,12 @@ export default function Header({ currentTab, onTabChange, onRequestEvaluation }:
               <div className="p-6 border-b border-navy-light/60">
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2.5">
-                    <div className="bg-gold w-8 h-8 flex items-center justify-center font-serif text-white font-bold text-base rounded-none">
-                      K
-                    </div>
+                    <img 
+                      src="/dka.png" 
+                      alt="Denis Kakeeto Advocates Logo" 
+                      referrerPolicy="no-referrer"
+                      className="w-8 h-8 object-contain shrink-0"
+                    />
                     <div className="flex flex-col leading-tight">
                       <span className="block font-serif text-sm font-bold text-white tracking-tight">
                         Denis Kakeeto
@@ -334,16 +340,16 @@ export default function Header({ currentTab, onTabChange, onRequestEvaluation }:
                 <div className="space-y-1.5 text-center">
                   <span className="block text-[8px] text-gray-400 uppercase tracking-widest font-bold">Kampala Priority Hotline</span>
                   <a 
+                    href="tel:+256772968262" 
+                    className="block text-gold hover:text-gold-light text-sm font-bold tracking-wider font-mono hover:underline min-h-[44px] flex items-center justify-center"
+                  >
+                    📞 +256 772 968 262
+                  </a>
+                  <a 
                     href="tel:+256704378426" 
                     className="block text-gold hover:text-gold-light text-sm font-bold tracking-wider font-mono hover:underline min-h-[44px] flex items-center justify-center"
                   >
                     📞 +256 704 378 426
-                  </a>
-                  <a 
-                    href="tel:+256772378426" 
-                    className="block text-gold hover:text-gold-light text-sm font-bold tracking-wider font-mono hover:underline min-h-[44px] flex items-center justify-center"
-                  >
-                    📞 +256 772 378 426
                   </a>
                 </div>
 

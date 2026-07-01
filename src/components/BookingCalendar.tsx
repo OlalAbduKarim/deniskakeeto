@@ -303,7 +303,7 @@ export default function BookingCalendar({ onBookingCreated }: BookingCalendarPro
                     <input
                       id="booking-phone"
                       type="tel"
-                      placeholder="e.g. +256 704 378 426"
+                      placeholder="e.g. +256 772 968 262"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                       className="w-full text-xs px-3 py-2 bg-white border border-gray-200 rounded-none focus:outline-none focus:border-gold font-medium"

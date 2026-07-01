@@ -334,8 +334,8 @@ export default function LiveChat({ onLeadCapture }: LiveChatProps) {
             {/* Support telephone shortcut */}
             <div className="mt-2 text-center text-[10px] text-gray-400">
               Need to talk now? Call priority hotline:<br />
-              <a href="tel:+256704378426" className="text-navy font-bold hover:underline">
-                +256 704 378 426
+              <a href="tel:+256772968262" className="text-navy font-bold hover:underline">
+                +256 772 968 262
               </a>
             </div>
           </div>

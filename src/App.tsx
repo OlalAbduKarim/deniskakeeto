@@ -215,11 +215,11 @@ export default function App() {
                   {/* Immediate Multi-CTAs - Sharp Corners */}
                   <div className="flex flex-col sm:flex-row gap-4 pt-4 flex-wrap">
                     <a 
-                      href="tel:+256704378426" 
+                      href="tel:+256772968262" 
                       className="py-4 px-8 bg-gold hover:bg-gold-dark text-navy font-bold uppercase tracking-widest text-xs rounded-none transition-all flex items-center justify-center gap-2 shrink-0"
                     >
                       <Phone className="h-4 w-4 shrink-0" />
-                      CALL NOW +256 704 378
+                      CALL NOW +256 772 968
                     </a>
                     <button 
                       onClick={() => setEvaluationModalOpen(true)}
@@ -263,7 +263,7 @@ export default function App() {
                       <input 
                         id="fold-phone" 
                         type="tel" 
-                        placeholder="e.g. +256 704 ..."
+                        placeholder="e.g. +256 772 ..."
                         value={evalPhone}
                         onChange={(e) => setEvalPhone(e.target.value)}
                         className="w-full text-xs px-3 py-2.5 border border-gray-200 rounded-none focus:outline-none focus:border-gold shadow-sm font-medium"
@@ -978,7 +978,7 @@ export default function App() {
                         <input 
                           id="p-phone" 
                           type="tel" 
-                          placeholder="e.g. +256 704 ..."
+                          placeholder="e.g. +256 772 ..."
                           value={evalPhone}
                           onChange={(e) => setEvalPhone(e.target.value)}
                           className="w-full text-xs px-3 py-2.5 bg-navy-light/20 border border-navy-light/60 rounded-none text-white placeholder-gray-400 focus:outline-none focus:border-gold font-normal"
@@ -1009,8 +1009,8 @@ export default function App() {
 
                     <div className="pt-4 border-t border-navy-light/40 text-center">
                       <span className="block text-[10px] text-gray-400 uppercase tracking-wider">Prefer direct call setup?</span>
-                      <a href="tel:+256704378426" className="font-bold text-gold text-xs hover:underline mt-1 block">
-                        📞 +256 704 378 426
+                      <a href="tel:+256772968262" className="font-bold text-gold text-xs hover:underline mt-1 block">
+                        📞 +256 772 968 262
                       </a>
                     </div>
                   </div>
@@ -1093,7 +1093,7 @@ export default function App() {
                   Analyze My Case Free
                 </button>
                 <a 
-                  href="tel:+256704378426" 
+                  href="tel:+256772968262" 
                   className="py-3 px-6 border border-white text-white hover:bg-white hover:text-navy font-bold text-xs uppercase tracking-widest rounded-none transition-all text-center"
                 >
                   Call Lawyer 24/7
@@ -1469,11 +1469,11 @@ export default function App() {
                     <div className="flex items-start gap-3">
                       <Phone className="h-5 w-5 text-gold shrink-0 mt-0.5" />
                       <div className="flex flex-col gap-1">
+                        <a href="tel:+256772968262" className="hover:text-gold font-bold transition-colors">
+                          +256 772 968 262
+                        </a>
                         <a href="tel:+256704378426" className="hover:text-gold font-bold transition-colors">
                           +256 704 378 426
-                        </a>
-                        <a href="tel:+256772378426" className="hover:text-gold font-bold transition-colors">
-                          +256 772 378 426
                         </a>
                       </div>
                     </div>
@@ -1529,7 +1529,7 @@ export default function App() {
       {/* FLOATING ACTION TOOL (Contact & Phone selector) */}
       <div id="floating-contact-panel" className="fixed bottom-20 lg:bottom-6 left-6 z-40 flex flex-col gap-2 font-sans">
         <a 
-          href="tel:+256704378426" 
+          href="tel:+256772968262" 
           className="bg-navy hover:bg-navy-light text-white font-bold text-xs p-3.5 rounded-none border border-gold hover:border-white shadow-none flex items-center gap-2 cursor-pointer transition-transform hover:-translate-y-0.5 active:translate-y-0"
         >
           <Phone className="h-4 w-4 text-gold" />
@@ -1557,7 +1557,7 @@ export default function App() {
             <BookOpen className="h-5 w-5" />
             <span className="text-[9px] uppercase font-bold tracking-wider">Home</span>
           </button>
-
+          
           {/* Item 2: Specialties */}
           <button
             onClick={() => {
@@ -1599,7 +1599,7 @@ export default function App() {
 
           {/* Item 4: Instant Phone call */}
           <a
-            href="tel:+256704378426"
+            href="tel:+256772968262"
             className="flex flex-col items-center justify-center gap-1 text-gold hover:text-gold-light transition-colors cursor-pointer bg-navy-light/40 border-l border-gold/15"
           >
             <Phone className="h-5 w-5 animate-bounce" />
@@ -1669,7 +1669,7 @@ export default function App() {
                       <input 
                         id="modal-phone"
                         type="tel" 
-                        placeholder="e.g. +256 704 ..."
+                        placeholder="e.g. +256 772 ..."
                         value={evalPhone}
                         onChange={(e) => setEvalPhone(e.target.value)}
                         className="w-full text-xs px-3.5 py-2.5 border border-gray-200 bg-white rounded-none focus:outline-none focus:border-gold font-normal"

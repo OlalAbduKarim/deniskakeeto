@@ -73,9 +73,12 @@ export default function Footer({ onTabChange, onLeadSubmitted }: FooterProps) {
         {/* Module A: Brand Authority & Physical Office */}
         <div className="lg:col-span-4 space-y-6">
           <div className="flex items-center gap-3">
-            <div className="bg-gold w-10 h-10 shrink-0 flex items-center justify-center font-serif text-white font-bold text-xl rounded-none">
-              K
-            </div>
+            <img 
+              src="/dka.png" 
+              alt="Denis Kakeeto Advocates Logo" 
+              referrerPolicy="no-referrer"
+              className="w-10 h-10 object-contain shrink-0"
+            />
             <div className="flex flex-col leading-tight">
               <span className="block font-serif text-xl font-bold uppercase tracking-tight text-white">
                 Denis Kakeeto
@@ -102,11 +105,11 @@ export default function Footer({ onTabChange, onLeadSubmitted }: FooterProps) {
             <div className="flex items-start gap-4">
               <Phone className="h-4.5 w-4.5 text-gold shrink-0 mt-0.5" />
               <div className="flex flex-col gap-1">
+                <a href="tel:+256772968262" className="hover:text-gold transition-colors font-semibold">
+                  +256 772 968 262
+                </a>
                 <a href="tel:+256704378426" className="hover:text-gold transition-colors font-semibold">
                   +256 704 378 426
-                </a>
-                <a href="tel:+256772378426" className="hover:text-gold transition-colors font-semibold">
-                  +256 772 378 426
                 </a>
               </div>
             </div>
